@@ -12,7 +12,7 @@ docker volume create minecraft_ftb_horizons3_data
 Then, run the server container:
 ```
 docker run --detach --interactive --tty \
-    --name ftb_beyond \
+    --name ftb_horizons3 \
     --volume minecraft_ftb_horizons3_data:/minecraft/world \
     --publish 25565:25565 \
     --env EULA=TRUE \
