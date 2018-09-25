@@ -3,7 +3,7 @@ FROM openjdk:8-jre-alpine
 MAINTAINER Sean Nelson <audiohacked@gmail.com>
 
 ENV BASE_URL="http://ftb.cursecdn.com/FTB2/modpacks/FTBHorizonsIII" \
-    FTB_VERSION="1_8_0" \
+    FTB_VERSION="1_8_1" \
     SERVER_FILE="FTBHorizonsIIIServer.zip" \
     SERVER_PORT=25565
 
